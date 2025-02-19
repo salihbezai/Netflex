@@ -2,10 +2,12 @@ import React from 'react'
 import "./movie.css"
 const Movie = ({movie}) => {
   return (
-    <div className='card'>
+    <div className='card_movie'>
         <img src={movie.img} alt="Movie"  />
-        <h2>{movie.title}</h2>
-        <h5>{movie.year}</h5>
+        <div class="card-content">
+          <h2>{movie.title}</h2>
+          <h5>{movie.year}</h5>
+        </div>
     </div>
   )
 }

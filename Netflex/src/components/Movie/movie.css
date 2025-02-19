@@ -1,6 +1,28 @@
-.card{
+.card_movie{
     display: flex;
     flex-direction: column;
-    height: 75vh;
-    max-width: 75%;
+    height: 80vh;
+    background-color: #fff;
+    border-radius: 10px;
+    background-color: #2d2d2d;
+}
+
+.card_movie img {
+    height: 75%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-content{
+    height: 25%;
+    width: 100%;
+    padding: 0.6rem 0.8rem;
+}
+.card-content h2{
+    color: #fff;
+}
+.card-content h5{
+    margin-top: 0.5rem;
+    color: #fff;
+    opacity: 0.5;
 }

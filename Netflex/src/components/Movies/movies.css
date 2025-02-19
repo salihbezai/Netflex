@@ -3,4 +3,33 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 2rem;
+    overflow: hidden;
 }
+
+@media screen and (min-width:480px){
+    .movies{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media screen and (min-width:620px){
+    .movies{
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+}
+
+@media screen and (min-width:991px){
+    .movies{
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+}
+
+@media screen and (min-width:1199px){
+    .movies{
+        grid-template-columns: repeat(4,1fr);
+    }
+    
+}
+
