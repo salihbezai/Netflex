@@ -59,3 +59,30 @@ export const accordions = [
         description:"The Netflex Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space."
     },
 ]
+
+export const movies_show = [
+    {
+        img:"https://occ-0-7995-784.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABeD7L-qatKZ-1qE_EWkd08gWXL6jc1tk2DPq4FiR3mYjtZAuVHHFdfdfVZ1sZcRXGjAn38y_DFzUtlFK39SPyzZq8dnQKfdyZt4.webp?r=c63",
+        title:"Henry Danger",
+        year:"2025"
+    },
+    {
+        img:"https://occ-0-7995-784.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABeD7L-qatKZ-1qE_EWkd08gWXL6jc1tk2DPq4FiR3mYjtZAuVHHFdfdfVZ1sZcRXGjAn38y_DFzUtlFK39SPyzZq8dnQKfdyZt4.webp?r=c63",
+        title:"Henry Danger",
+        year:"2025"
+    },
+    {
+        img:"https://occ-0-7995-784.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABeD7L-qatKZ-1qE_EWkd08gWXL6jc1tk2DPq4FiR3mYjtZAuVHHFdfdfVZ1sZcRXGjAn38y_DFzUtlFK39SPyzZq8dnQKfdyZt4.webp?r=c63",
+        title:"Henry Danger",
+        year:"2025"
+    },
+    {
+        img:"https://occ-0-7995-784.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABeD7L-qatKZ-1qE_EWkd08gWXL6jc1tk2DPq4FiR3mYjtZAuVHHFdfdfVZ1sZcRXGjAn38y_DFzUtlFK39SPyzZq8dnQKfdyZt4.webp?r=c63",
+        title:"Henry Danger",
+        year:"2025"
+    }
+]
+
+
+export const API_KEY = "7b3b749f1fe5e4b96fdedf035f6cafc4"
+const BASE_URL = "https://api.themoviedb.org/3";
