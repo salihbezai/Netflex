@@ -18,14 +18,22 @@ I created Netflex to highlight my proficiency in React and CSS. By avoiding styl
 1 Clone the repository:  
 ```bash
 git clone https://github.com/yourusername/netflex.git  
-
-2 Install dependencies:
+```
 
 npm install  
 
+```bash
+2 Install dependencies:
+```
+
+
+
 3 Run the development server:
 
+```bash
 npm start  
+```
+
 
 📝 Acknowledgments
 
