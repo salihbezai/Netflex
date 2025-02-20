@@ -6,10 +6,15 @@ Welcome to Netflex — a movie web app I built to showcase my front-end developm
 • 📃 Movie Listings: Browse through a wide range of movies.  
 • ❤️ Favorites: Add movies to your favorites list for quick access.  
 • 💻 Responsive Design: Works seamlessly across all devices.  
+
+
+  
 🛠️ Technologies Used  
 • ReactJS: Front-end library to build a dynamic, component-based interface.  
 • CSS: Hand-coded styling with a focus on Flexbox and CSS Grid layouts (no frameworks used).  
 • TMDB API: Fetches up-to-date movie data.  
+  
+
 🎨 Why This Project?  
 I created Netflex to highlight my proficiency in React and CSS. By avoiding styling frameworks, I challenged myself to craft responsive and aesthetic layouts purely with CSS.  
 
