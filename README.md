@@ -1,4 +1,4 @@
-Netflex 🎬
+Netflex 🎬  
 Welcome to Netflex — a movie web app I built to showcase my front-end development skills. Visitors can browse movies, search for their favorites, and save them to a personal favorites list.
 
 🚀 Features
