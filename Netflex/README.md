@@ -40,6 +40,3 @@ npm start
 ```
 
 
-📝 Acknowledgments
-
-TMDB API for providing movie data.
