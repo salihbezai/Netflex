@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react'
 import Movie from '../Movie/Movie'
-import Navbar from '../Navbar/Navbar'
 import { useMovieContext } from '../../contexts/MovieContext'
- 
+
 const Favorites = () => {
     const {favorites} = useMovieContext()
   
@@ -19,16 +18,15 @@ const Favorites = () => {
     <>
     <div className='search'>
     </div>
+    {error && <div className='error-message'>{error}</div>}
+    {favorites.length === 0 && <p style={{textAlign:"center",color:"#fff"}}>No movies Found</p>}
      <div className='movies'>
-      {error && <div className='error-message'>{error}</div>}
      {
   loading ? (
     <p>Loading...</p>
-  ) : favorites && favorites.length > 0 ? (
+  ) : favorites &&  (
     favorites.map((movie) => <Movie key={movie.id} movie={movie} />)
-  ) : (
-    <p>No movies found!</p>
-  )
+  ) 
 }
       
      
