@@ -8,6 +8,7 @@ nav {
     justify-content: space-around;
     position: relative;
     justify-items: center;
+    z-index: 1000;
 }
 .logo {
     color: #E50914 ;

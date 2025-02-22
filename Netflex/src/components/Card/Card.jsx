@@ -1,6 +1,6 @@
 import "./card.css"
 const Card = ({title,description,svg}) => {
-    console.log(svg)
+  
   return (
     <div className='card'>
         <h2>{title}</h2>

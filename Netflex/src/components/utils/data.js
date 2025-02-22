@@ -84,5 +84,3 @@ export const movies_show = [
 ]
 
 
-export const API_KEY = "7b3b749f1fe5e4b96fdedf035f6cafc4"
-const BASE_URL = "https://api.themoviedb.org/3";

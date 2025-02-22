@@ -11,7 +11,7 @@ const Footer = () => {
             <li><Link to={"/"} >Terms of Use</Link></li>
             <li><Link to={"/"} >Privacy</Link></li>
          </ul>
-         <p>&copy; 2025 Netflex. All rights reserved.</p>
+         <p>&copy; {new Date().getFullYear()} Netflex. All rights reserved.</p>
     </footer>
   )
 }
