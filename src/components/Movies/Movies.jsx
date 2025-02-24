@@ -2,17 +2,19 @@ import { useEffect, useState } from 'react'
 import Movie from '../Movie/Movie'
 import Navbar from '../Navbar/Navbar'
 import { getPopulateMovies, searchMovies,  } from '../services/Api'
+import  { Filter } from "bad-words"
 import "./movies.css"
 import { Button } from '@mui/material'
  
 const Movies = () => {
-
+const filter = new Filter();
+// add some bad words
+filter.addWords(...["kiss","love","sexe","sex","fuck"])
   const [movies , setMovies ]=useState([])
   const [error,setError] = useState(null)
   const [ loading, setLoading ]= useState(true)
   const [searchQuery, setSearchQuery] = useState("")
 
-  
   const fetchMovies=async()=>{
 
     try {
@@ -41,8 +43,10 @@ const Movies = () => {
   const handleSearch=async(e)=>{
     e.preventDefault()
     if(!searchQuery.trim()) return;
+
     try {
-      const searchResults = await searchMovies(searchQuery);
+      const filtred_text = filter.clean(searchQuery)
+      const searchResults = await searchMovies(filtred_text);
       setMovies(searchResults)
     } catch (error) {
       
