@@ -1,6 +1,6 @@
 Netflex 🎬  
 Welcome to Netflex — a movie web app I built to showcase my front-end development skills. Visitors can browse movies, search for their favorites, and save them to a personal favorites list.  
-website Link :  [Netflex](https://netflex-chi.vercel.app/)
+website Link :  [https://netflex-chi.vercel.app/](https://netflex-chi.vercel.app/)
 
 🚀 Features  
 • 🔎 Search Movies: Instantly find movies using the TMDB API.  
