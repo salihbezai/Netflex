@@ -18,6 +18,15 @@
     color: #fff;
 }
 
+
+
+@media screen and (min-width:375px){
+    .cards {
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
+
 @media screen and (min-width:480px){
     .container{
     }

@@ -9,6 +9,7 @@ nav {
     position: relative;
     justify-items: center;
     z-index: 1000;
+    padding: 1rem;
 }
 .logo {
     color: #E50914 ;
@@ -16,6 +17,21 @@ nav {
     text-decoration: none;
     font-size: 2.8rem;
 }
+
+.hamburger {
+    display: none; 
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+  }
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+  }
 
 .list-items{
     display: flex;
@@ -33,12 +49,63 @@ nav {
     text-decoration: none;
     color: #fff;
     font-size: 1.3rem;
+}
 
+/* 375px and higher*/
+@media screen and (min-width:360px){
+    .list-items{
+        position:absolute;
+        top: 0;
+        right: -100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        gap: 1.1rem ;
+        background-color: red;
+        width: 200px;
+        height: 100vh;
+        padding: 3rem 1rem;
+        transition: right 0.3s ease;
+        overflow: hidden;
+    }
+    
+    .list-items.active{
+        right: 0;
+    }
+
+    .hamburger{
+        display: flex;
+        z-index: 1001;
+    }
+
+      /* Hamburger Animation */
+  .hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .hamburger.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+    nav{
+        justify-content: space-between ;
+    }
+    .logo {
+        font-size: 1.6rem;
+    }
+    
 }
 
 @media screen and (min-width:480px){
     nav{
         padding: 0.9rem .25rem;
+    }
+    
+    .hamburger{
+        display: none;
     }
     
 }

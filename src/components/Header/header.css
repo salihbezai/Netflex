@@ -71,3 +71,12 @@ form div{
 }
 
 
+/* 375px and higher*/
+@media screen and (min-width:375px){
+    .hero-text h1{
+        font-size: 2rem !important;
+    }
+    .hero-text p{
+        font-size: 1.6rem !important;
+    }
+}

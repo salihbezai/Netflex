@@ -38,7 +38,17 @@
     bottom: 0;
     
 }
-
+@media screen and (min-width:375px){
+    .cards{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .card {
+        
+    }
+    
+}
 
 
 @media screen and (min-width:480px){
