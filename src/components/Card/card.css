@@ -40,14 +40,13 @@
 }
 @media screen and (min-width:375px){
     .card {
-        
+        padding-bottom: 18rem;
     }
 }
 
 
 @media screen and (min-width:480px){
     .card{
-        padding-bottom: 12rem;
     }
     .svg-icon{
         position:absolute;
