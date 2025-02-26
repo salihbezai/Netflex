@@ -38,6 +38,8 @@
     bottom: 0;
     
 }
+
+
 @media screen and (min-width:360px){
     .card {
         padding-bottom: 15rem;
@@ -54,6 +56,13 @@
         
     }
     
+}
+
+
+@media screen and (min-width:600px){
+    .card {
+        padding-bottom: 8rem;
+    }
 }
 
 
