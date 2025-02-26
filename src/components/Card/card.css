@@ -39,24 +39,13 @@
     
 }
 @media screen and (min-width:375px){
-    .cards{
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-    }
     .card {
         
     }
-    
 }
 
 
 @media screen and (min-width:480px){
-    .cards{
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-    }
     .card{
         padding-bottom: 12rem;
     }
@@ -69,18 +58,9 @@
     
 }
 
-@media screen and (min-width:960px){
-    .cards{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-    }
-}
+
 
 @media screen and (min-width:1280px){
-    .cards{
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
-    }
     .card{
         padding-bottom: 15rem;
     }

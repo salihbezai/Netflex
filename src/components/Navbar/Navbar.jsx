@@ -5,11 +5,13 @@ const Navbar = () => {
   const toggleHamburger=()=>{
     const hamburger = document.getElementById("hamburger");
     const listItems = document.getElementsByClassName('list-items')[0]
+    const nav = document.getElementById('nav')
     hamburger.classList.toggle("active")
     listItems.classList.toggle("active")
+   
   }
   return (
-    <nav>
+    <nav id="nav">
       
       <a href="/" className="logo">
        NETFLEX

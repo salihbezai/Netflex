@@ -20,21 +20,39 @@
 
 
 
-@media screen and (min-width:375px){
-    .cards {
-        grid-template-columns: repeat(1,1fr);
+/* 360px and higher*/
+@media screen and (min-width:360px){
+    .cards{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
     }
+  
     
 }
 
 @media screen and (min-width:480px){
-    .container{
+    .cards{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
     }
     
 }
 
-@media screen and (min-width:600px){
-    .container{
+
+@media screen and (min-width:960px){
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+
+@media screen and (min-width:1280px){
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
     }
     
 }
