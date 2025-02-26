@@ -108,9 +108,7 @@ nav {
 /* 600px and higher*/
 
 @media screen and (min-width:600px){
-    nav{
-        padding: 0.9rem .25rem;
-    }
+  
     
     .hamburger{
         display: none;
