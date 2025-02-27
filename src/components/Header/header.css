@@ -71,12 +71,34 @@ form div{
 }
 
 
-/* 375px and higher*/
-@media screen and (min-width:375px){
-    .hero-text h1{
-        font-size: 2rem !important;
+/* 360px and higher*/
+@media screen and (min-width:360px){
+    .hero-section .hero-text h1{
+        font-size: 2rem;
     }
     .hero-text p{
-        font-size: 1.6rem !important;
+        font-size: 1.6rem;
+    }
+}
+
+
+/* 480px and higher*/
+@media screen and (min-width:480px){
+    .hero-section .hero-text h1{
+        font-size: 2.5rem;
+    }
+    .hero-section .hero-text p{
+        font-size: 1.6rem;
+    }
+}
+
+
+/* 600px and higher*/
+@media screen and (min-width:600px){
+    .hero-section .hero-text h1{
+        font-size: 3.5rem;
+    }
+    .hero-section .hero-text p{
+        font-size: 1.5rem;
     }
 }
