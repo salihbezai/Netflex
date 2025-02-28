@@ -29,6 +29,12 @@
     .movies{
         grid-template-columns: repeat(1,1fr);
     }
+
+    .search input {
+    width: 100%;
+    padding: 15px;
+}
+
 }
 
 @media screen and (min-width:600px){
