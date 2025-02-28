@@ -62,7 +62,8 @@ filter.addWords(...["kiss","love","sexe","sex","fuck"])
         <Button type='submit' sx={{padding:"12px 20px",backgroundColor:"#E50914"
                             ,marginLeft:"15px",color:"#fff",fontWeight:"bold"}}
                              className='btn-get-started'  variant="contained">
-           Search</Button>
+           Search
+        </Button>
       </form>
    
     </div>
