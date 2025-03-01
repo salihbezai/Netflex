@@ -2,6 +2,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+body.no-scroll {
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
 nav {
     display: flex;
     align-items: center;
@@ -39,6 +44,7 @@ nav {
     align-items: center;
     justify-content: space-evenly;
     width: 25%;
+    z-index: 1000;
 }
 .list-items li {
     list-style: none;
@@ -54,6 +60,22 @@ nav {
 .list-items.active{
     right: 0;
     display: flex;
+}
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark background effect */
+    z-index: 999; /* Behind the menu but above everything else */
+    display: none;
+}
+
+.overlay.active {
+    display: block;
 }
 
 
@@ -126,6 +148,10 @@ nav {
         height: 3.5rem;
         gap: 0.3rem ;
         padding: 0;
+    }
+
+    .overlay.active{
+        display: none;
     }
 }
 

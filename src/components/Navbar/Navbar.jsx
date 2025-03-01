@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom"
 import "./navbar.css"
+import { useState } from "react"
 const Navbar = () => {
-
+  const [open, setOpen] = useState(false)
   const toggleHamburger=()=>{
+    setOpen(!open)
     const hamburger = document.getElementById("hamburger");
     const listItems = document.getElementsByClassName('list-items')[0]
     const nav = document.getElementById('nav')
@@ -12,7 +14,8 @@ const Navbar = () => {
   }
   return (
     <nav id="nav">
-      
+            <div id="overlay" className={open ? "overlay active":"overlay"}></div>
+
       <a href="/" className="logo">
        NETFLEX
       </a>
