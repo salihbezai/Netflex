@@ -35,7 +35,7 @@ nav {
   }
 
 .list-items{
-    display: none;
+    /* display: none; */
     align-items: center;
     justify-content: space-evenly;
     width: 25%;
@@ -60,7 +60,7 @@ nav {
 /* 360px and higher*/
 @media screen and (min-width:360px){
     .list-items{
-        position:absolute;
+        position: fixed;
         top: 0;
         right: -100%;
         flex-direction: column;
@@ -70,8 +70,9 @@ nav {
         width: 200px;
         height: 100vh;
         padding: 3rem 1rem;
-        transition: right 5s ease;
+        transition: right 0.4s ease;
         overflow: hidden;
+        
     }
     
     .list-items.active{

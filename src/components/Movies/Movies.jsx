@@ -27,8 +27,6 @@ filter.addWords(...["kiss","love","sexe","sex","fuck"])
     }
   }
   useEffect(() => {
-
-
     fetchMovies()
   }, [])
 
