@@ -41,6 +41,10 @@
     .movies{
         grid-template-columns: repeat(2,1fr);
     }
+
+    .search input {
+        width: 50%;
+    }
     
 }
 
@@ -48,7 +52,7 @@
     .movies{
         grid-template-columns: repeat(3,1fr);
     }
-    
+
 }
 
 @media screen and (min-width:1199px){
