@@ -57,13 +57,13 @@ const Navbar = () => {
     </div>
       <ul className="list-items">
         <li className="item">
-        <Link to={"/"} >Home</Link>
+        <Link to={"/"} onClick={()=>setOpen(false)} >Home</Link>
         </li>
         <li className="item">
-        <Link to={"/movies"} >Movies</Link>
+        <Link to={"/movies"} onClick={()=>setOpen(false)} >Movies</Link>
         </li>
         <li className="item">
-        <Link to={"/favorites"} >Favorites</Link>
+        <Link to={"/favorites"}  onClick={()=>setOpen(false)} >Favorites</Link>
         </li>
       </ul>
     </nav>

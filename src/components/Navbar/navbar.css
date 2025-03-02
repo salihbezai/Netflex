@@ -57,6 +57,9 @@ nav {
     color: #fff;
     font-size: 1.3rem;
 }
+.list-items li a:hover{
+    text-decoration: underline;
+}
 .list-items.active{
     right: 0;
     display: flex;
