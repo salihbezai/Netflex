@@ -7,9 +7,9 @@ const Footer = () => {
             NETFLEX
          </a>
          <ul>
-            <li><Link to={"/"} >Contact Us</Link></li>
-            <li><Link to={"/"} >Terms of Use</Link></li>
-            <li><Link to={"/"} >Privacy</Link></li>
+            <li><Link to={"/contact-us"} >Contact Us</Link></li>
+            <li><Link to={"/terms-of-use"} >Terms of Use</Link></li>
+            <li><Link to={"/privacy"} >Privacy</Link></li>
          </ul>
          <p>&copy; {new Date().getFullYear()} Netflex. All rights reserved.</p>
     </footer>
